@@ -17,12 +17,12 @@ Before you begin, ensure you have the following installed on your local machine:
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name 
 ```
-2. Install Dependencies
+### 2. Install Dependencies
 ```bash
 npm install
 ```
 
-3. Set up environment variables
+### 3. Set up environment variables
 
 Create a .env file in the root of the project and add your MongoDB Atlas connection string:
 ```bash
@@ -30,7 +30,7 @@ MONGODB_URI=your-mongodb-atlas-connection-string
 PORT=3000
 ```
 
-4. Start the server
+### 4. Start the server
 ```bash
 npm start
 ```
@@ -39,7 +39,7 @@ The server will start on http://localhost:3000.
 
 API Endpoints
 
-Create a new product
+### Create a new product
 
 URL: /products
 
